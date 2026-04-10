@@ -6,7 +6,20 @@ ______________________________________________________________________
 
 ## 📌 About
 
-This repository contains my solutions to competitive programming problems from various platforms. Each solution is written in **Java**
+This repository contains my solutions to competitive programming problems
+from various platforms and contests. Each solution is written in **Java**.
+
+**Workflow:**
+
+- Solutions are solved independently during contests or practice
+- Some solutions are later reviewed and improved based on:
+  - Official editorials
+  - Community discussions (Codeforces blog, LeetCode discuss)
+  - Various online resources and forums
+- Improved solutions are **re-understood and re-implemented** personally
+
+This repository is purely for **educational purposes** — to reinforce my
+understanding, document my growth, and share my learning journey.
 
 ______________________________________________________________________
 
@@ -16,7 +29,8 @@ ______________________________________________________________________
 | ------------------------------------ | ---------------------------------------------------------- |
 | [LeetCode](https://leetcode.com) | [@wildana_dev](https://leetcode.com/J6yKjKGZdI) |
 | [Codeforces](https://codeforces.com) | [@wildana_dev](https://codeforces.com/profile/wildana_dev) |
-| [AtCoder](https://atcoder.jp) | [@wildana_dev](https://atcoder.jp/users/wildana_dev) |
+| [Atcoder](https://atcoder.jp) | [@wildana_dev](https://atcoder.jp/users/wildana_dev) |
+| [TLX Toki](https://tlx.toki.id) | [@wildana_dev](https://tlx.toki.id/profiles/wildana_dev) |
 
 ### LeetCode Stats
 
@@ -31,7 +45,9 @@ ______________________________________________________________________
 ## 🧠 Topics Covered
 
 | Topic | Description |
-| ----- | ----------- |
+| ------------- | --------------------------------------------------------- |
+| 📊 Array | Two pointers, sliding window, prefix sum, sorting |
+| 🗂️ Hash Table | Frequency count, lookup optimization, duplicate detection |
 
 ______________________________________________________________________
 
