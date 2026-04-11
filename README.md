@@ -44,10 +44,14 @@ ______________________________________________________________________
 
 ## 🧠 Topics Covered
 
-| Topic | Description |
-| ------------- | --------------------------------------------------------- |
-| 📊 Array | Two pointers, sliding window, prefix sum, sorting |
-| 🗂️ Hash Table | Frequency count, lookup optimization, duplicate detection |
+| Topic |
+| ---------------- |
+| 📊 Array |
+| 🗂️ Hash Table |
+| 👆 Two Pointers |
+| 🔍 Binary Search |
+| 🔤 String |
+| 🏔️ Heap |
 
 ______________________________________________________________________
 
