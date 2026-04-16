@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class MissingNumber {
+public class CoinPiles {
 
   static class FastReader {
     BufferedReader b;
@@ -39,11 +39,7 @@ public class MissingNumber {
     String nextLine() {
       String str = "";
       try {
-        if (s.hasMoreTokens()) {
-          str = s.nextToken("\n");
-        } else {
-          str = b.readLine();
-        }
+        str = b.readLine();
       } catch (IOException e) {
         e.printStackTrace();
       }
@@ -51,14 +47,22 @@ public class MissingNumber {
     }
   }
 
-  public static void main(String[] args) {
-    FastReader fr = new FastReader();
-    int n = fr.nextInt();
-    int ans = n;
-    for (int i = 1; i < n; i++) {
-      int xi = fr.nextInt();
-      ans ^= xi ^ i;
+  static FastReader fr = new FastReader();
+
+  static void solve() {
+    long a = fr.nextLong();
+    long b = fr.nextLong();
+    if ((a + b) % 3 == 0 && Math.max(a, b) <= 2 * Math.min(a, b)) {
+      System.out.println("YES");
+    } else {
+      System.out.println("NO");
     }
-    System.out.println(ans);
+  }
+
+  public static void main(String[] args) {
+    int t = fr.nextInt();
+    while (t-- > 0) {
+      solve();
+    }
   }
 }
