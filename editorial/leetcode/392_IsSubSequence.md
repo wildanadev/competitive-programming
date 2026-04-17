@@ -4,7 +4,7 @@
 - **Difficulty**: Easy
 - **Topics**: String, Two Pointers
 - **Link**: [Problem](https://leetcode.com/problems/is-subsequence/)
-- **Solution**: [Code](../../leetcode/easy/392_IsSubsequence.java)
+- **Solution**: [Code](../../leetcode/IsSubsequence.java)
 
 ______________________________________________________________________
 

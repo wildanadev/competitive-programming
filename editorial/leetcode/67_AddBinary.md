@@ -4,7 +4,7 @@
 - **Difficulty**: Easy
 - **Topics**: Math, String, Bit Manipulation
 - **Link**: [Problem](https://leetcode.com/problems/add-binary/)
-- **Solution**: [Code](../../leetcode/easy/67_AddBinary.java)
+- **Solution**: [Code](../../leetcode/AddBinary.java)
 
 ______________________________________________________________________
 
