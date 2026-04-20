@@ -1,4 +1,3 @@
-
 public class LargestNumberAtLeastTwiceOfOthers {
   public int dominantIndex(int[] nums) {
     int max = -1;
