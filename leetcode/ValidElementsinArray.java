@@ -1,30 +1,34 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.TreeMap;
 
 public class ValidElementsinArray {
   public List<Integer> findValidElements(int[] nums) {
+    int n = nums.length;
+    boolean[] valid = new boolean[n];
+
+    // Prefix maximum
+    int max = Integer.MIN_VALUE;
+    for (int i = 0; i < n; i++) {
+      if (nums[i] > max) {
+        valid[i] = true;
+        max = nums[i];
+      }
+    }
+
+    // Suffix maximum
+    max = Integer.MIN_VALUE;
+    for (int i = n - 1; i >= 0; i--) {
+      if (nums[i] > max) {
+        valid[i] = true;
+        max = nums[i];
+      }
+    }
+
     List<Integer> ans = new ArrayList<>();
-    TreeMap<Integer, Integer> value = new TreeMap<>();
-    int mLeft = Integer.MIN_VALUE;
-    for (int i = 0; i < nums.length; i++) {
-      if (nums[i] > mLeft) {
-        mLeft = nums[i];
-        value.put(i, nums[i]);
-      }
+    for (int i = 0; i < n; i++) {
+      if (valid[i]) ans.add(nums[i]);
     }
 
-    int mRight = Integer.MIN_VALUE;
-    for (int i = nums.length - 1; i >= 0; i--) {
-      if (nums[i] > mRight) {
-        mRight = nums[i];
-        value.put(i, nums[i]);
-      }
-    }
-
-    for (int i : value.keySet()) {
-      ans.add(value.get(i));
-    }
     return ans;
   }
 }
