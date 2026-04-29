@@ -104,29 +104,6 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 🔧 Kenapa `while`, Bukan `if`?
-
-```java
-while (freq[s.charAt(right) - 'a'] > 2) {
-    freq[s.charAt(left) - 'a']--;
-    left++;
-}
-```
-
-Saat `right` menambahkan karakter baru yang melanggar, bisa saja kita perlu menggeser `left` **lebih dari satu langkah** sebelum kondisi valid kembali.
-
-Contoh di `s = "bcbbbcba"`, saat `right=4` (`b` ke-4):
-
-```
-freq{b:3} → shrink:
-  hapus s[1]='c' → freq{b:3, c:0} → masih b:3! → lanjut shrink
-  hapus s[2]='b' → freq{b:2, c:0} → b:2, ✅ stop
-```
-
-Perlu dua kali geser `left` sebelum valid. `if` hanya geser sekali → kondisi masih dilanggar.
-
-______________________________________________________________________
-
 ## 📌 Key Takeaway
 
 **Shrink from left** adalah pola sliding window paling powerful untuk soal "substring terpanjang dengan kondisi X" — window diperluas dari kanan, dan diperkecil dari kiri hanya saat kondisi dilanggar. Kunci utamanya: `right` dan `left` tidak pernah mundur sehingga total O(n). Pola ini identik dengan _Longest Substring Without Repeating Characters_ (max 1 occurrence) — soal ini hanya mengubah batasnya menjadi max 2 occurrence. 🎯
