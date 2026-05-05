@@ -1,6 +1,6 @@
 import java.util.ArrayDeque;
 
-public class EvaluteReversePolishNotation {
+public class EvaluateReversePolishNotation {
   public int evalRPN(String[] tokens) {
     ArrayDeque<Integer> ad = new ArrayDeque<>();
     int op1 = 0, op2 = 0;
