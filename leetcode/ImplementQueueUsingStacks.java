@@ -10,23 +10,24 @@ class MyQueue {
   }
 
   public void push(int x) {
-    if (stack.isEmpty()) stack.push(x);
-    else {
-      while (!stack.isEmpty()) stack1.push(stack.pop());
-      stack.push(x);
-      while (!stack1.isEmpty()) stack.push(stack1.pop());
-    }
+    stack.push(x);
   }
 
   public int pop() {
-    return stack.pop();
+    transfer();
+    return stack1.pop();
   }
 
   public int peek() {
-    return stack.peek();
+    transfer();
+    return stack1.peek();
   }
 
   public boolean empty() {
-    return stack.isEmpty();
+    return stack.isEmpty() && stack1.isEmpty();
+  }
+
+  private void transfer() {
+    if (stack1.isEmpty()) while (!stack.isEmpty()) stack1.push(stack.pop());
   }
 }
