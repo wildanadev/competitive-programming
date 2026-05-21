@@ -4,8 +4,7 @@ public class LicenseKeyFormatting {
     int cnt = 0;
     char[] license = s.toUpperCase().toCharArray();
     for (int i = license.length - 1; i >= 0; i--) {
-      if (license[i] == '-') continue;
-      else {
+      if (license[i] != '-') {
         ans.append(license[i]);
         cnt++;
         if (cnt == k) {
