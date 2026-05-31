@@ -1,4 +1,3 @@
-
 public class DigitFrequencyScore {
   public int digitFrequencyScore(int n) {
     int sum = 0;
