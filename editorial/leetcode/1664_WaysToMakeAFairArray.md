@@ -208,4 +208,4 @@ ______________________________________________________________________
 
 ## 📌 Key Takeaway
 
-oal ini mengajarkan teknik **"simulasi pergeseran indeks tanpa rebuild array"** — dengan melacak suffix sum terpisah untuk genap/ganjil, pergeseran indeks setelah penghapusan terwakili oleh penukaran `right[0]` dan `right[1]`. Array `left[2]` dan `right[2]` yang masing-masing berukuran 2 adalah representasi yang sangat elegan dan efisien O(1) space. 🎯
+Soal ini mengajarkan teknik **"simulasi pergeseran indeks tanpa rebuild array"** — dengan melacak suffix sum terpisah untuk genap/ganjil, pergeseran indeks setelah penghapusan terwakili oleh penukaran `right[0]` dan `right[1]`. Array `left[2]` dan `right[2]` yang masing-masing berukuran 2 adalah representasi yang sangat elegan dan efisien O(1) space. 🎯
