@@ -156,4 +156,4 @@ prefMax[i] = max(prefMax[i-1], nums[i])   // kiri ke kanan
 sufMin[i]  = min(sufMin[i+1], nums[i])    // kanan ke kiri
 ```
 
-Kapan pun soal membutuhkan **"max/min dari semua elemen sebelum i"** dan **"max/min dari semua elemen setelah i"** secara bersamaan, langsung pikirkan teknik ini. Pola yang sama muncul di _Trapping Rain Water_, _Product of Array Except Self_, dan _Maximum Product Subarray_. 🎯
+Kapan pun soal membutuhkan **"max/min dari semua elemen sebelum i"** dan **"max/min dari semua elemen setelah i"** secara bersamaan, langsung pikirkan teknik ini. Pola yang sama muncul di _Trapping Rain Water_, _Product of Array Except Self_, dan _Maximum Product Subarray_.
