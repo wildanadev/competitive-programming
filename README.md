@@ -51,12 +51,21 @@ ______________________________________________________________________
 | 👆 Two Pointers |
 | 🔍 Binary Search |
 | 🔤 String |
-| 🏔️ Heap |
+| 🏔️ Heap / Priority Queue |
 | 🎯 Ad Hoc |
 | 🪟 Sliding Window |
+| 🧮 Prefix Sum |
 | 🔢 Math |
 | 🔧 Bit Manipulation |
 | 📚 Stack |
+| 🚪 Queue & Deque |
+| 🚶‍♂️ Linked List |
+| 🌳 Tree / BST |
+| 🌐 Graph (BFS/DFS) |
+| 🌿 Trie |
+| ⚡ Dynamic Programming |
+| 🦊 Greedy |
+| 🔙 Backtracking |
 
 ______________________________________________________________________
 
