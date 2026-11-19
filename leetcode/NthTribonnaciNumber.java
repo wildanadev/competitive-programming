@@ -1,0 +1,7 @@
+/**
+ * NthTribonnaciNumber
+ */
+public class NthTribonnaciNumber {
+
+    
+}
